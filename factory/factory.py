@@ -62,6 +62,9 @@ class NYStyleCheesePizza(Pizza):
     def prepare(self):
         # prepare method
         print("prepare NY cheese pizza")
+        print("using ThinCrustDought")
+        print("using MarinaraSause")
+        print("using ReggianoCheese")
     def bake(self):
         # bake method
         print("bake NY cheese pizza")
@@ -78,6 +81,8 @@ class NYStyleVeggiePizza(Pizza):
     def prepare(self):
         # prepare method
         print("prepare NY veggie pizza")
+        print("using ThinCrustDought")
+        print("using MarinaraSause")
     def bake(self):
         # bake method
         print("bake NY veggie pizza")
@@ -94,6 +99,9 @@ class ChicagoStyleCheesePizza(Pizza):
     def prepare(self):
         # prepare method
         print("prepare Chicago cheese pizza")
+        print("using ThinCrustDought_ChicagoStyle")
+        print("using MarinaraSause_ChicagoStyle")
+        print("using ReggianoCheese_ChicagoStyle")
     def bake(self):
         # bake method
         print("bake Chicago cheese pizza")
@@ -110,6 +118,8 @@ class ChicagoStyleVeggiePizza(Pizza):
     def prepare(self):
         # prepare method
         print("prepare Chicago veggie pizza")
+        print("using ThinCrustDought_ChicagoStyle")
+        print("using MarinaraSause_ChicagoStyle")
     def bake(self):
         # bake method
         print("bake Chicago veggie pizza")
