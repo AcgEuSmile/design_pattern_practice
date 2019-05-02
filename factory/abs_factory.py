@@ -7,12 +7,16 @@ class Pizza(object):
 
     def prepare(self):
         # prepare method
+        pass
     def bake(self):
         # bake method
+        pass
     def cut(self):
         # cut method
+        pass
     def box(self):
         # box method
+        pass
 
 class PizzaIngredientFactory(object):
 
